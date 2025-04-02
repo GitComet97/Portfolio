@@ -1,47 +1,50 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import { ref } from 'vue'
+import Work from './components/WorkTab.vue'
+import AboutMe from './components/AboutMeTab.vue'
+import Contact from './components/ContactTab.vue'
+
+const currentTab = ref('Work')
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <div class="h-full w-full bg-black text-white flex flex-col">
+    <nav class="flex gap-4 p-4">
+      <button
+        @click="currentTab = 'Work'"
+        :class="{ 'font-bold underline': currentTab === 'Work' }"
+      >
+        Work
+      </button>
+      <button
+        @click="currentTab = 'AboutMe'"
+        :class="{ 'font-bold underline': currentTab === 'AboutMe' }"
+      >
+        About Me
+      </button>
+      <button
+        @click="currentTab = 'Contact'"
+        :class="{ 'font-bold underline': currentTab === 'Contact' }"
+      >
+        Contact
+      </button>
+    </nav>
 
-    <div class="wrapper">
-      <HelloWorld msg="Test!" />
+    <div class="flex-grow p-8 w-screen">
+      <Work v-if="currentTab === 'Work'" />
+      <AboutMe v-if="currentTab === 'AboutMe'" />
+      <Contact v-if="currentTab === 'Contact'" />
     </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  </div>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+<style>
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 </style>
