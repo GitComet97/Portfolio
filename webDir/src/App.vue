@@ -8,7 +8,7 @@ const currentTab = ref('Work')
 </script>
 
 <template>
-  <div class="h-screen w-screen bg-black text-white flex flex-col">
+  <div class="h-screen w-screen bg-black text-white flex flex-col pl-4">
     <nav class="flex gap-4 p-4">
       <button
         @click="currentTab = 'Work'"
@@ -20,7 +20,7 @@ const currentTab = ref('Work')
         @click="currentTab = 'AboutMe'"
         :class="{ 'font-bold underline': currentTab === 'AboutMe' }"
       >
-        About Me
+        About me
       </button>
       <button
         @click="currentTab = 'Contact'"
@@ -30,7 +30,7 @@ const currentTab = ref('Work')
       </button>
     </nav>
 
-    <div class="flex-grow p-8 w-screen">
+    <div class="flex-grow w-screen">
       <Work v-if="currentTab === 'Work'" />
       <AboutMe v-if="currentTab === 'AboutMe'" />
       <Contact v-if="currentTab === 'Contact'" />
