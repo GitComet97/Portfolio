@@ -1,13 +1,13 @@
 <template>
-  <div class="w-fit max-w-full mx-auto p-4 pr-12 text-white">
+  <div class="w-screen h-screen mx-auto p-4 pr-6 text-white overflow-y-auto">
     <!-- Heading -->
-    <h2 class="text-4xl font-bold text-start mb-6 pb-8">About Me</h2>
+    <h2 class="text-4xl font-bold text-start mb-4 pb-4">About Me</h2>
     <!-- Image & Personal Info -->
-    <div class="flex flex-col md:flex-row items-center gap-6 mb-10 pb-8">
+    <div class="flex items-center gap-6 pb-4">
       <img
-        src=""
+        src="../assets/Morne_headshot.jpg"
         alt="Your Name"
-        class="w-40 h-40 rounded-full object-cover border-4 border-gray-700"
+        class="bg-white w-48 h-64 rounded-full border-4 border-gray-700"
       />
       <div class="text-center md:text-left">
         <p class="text-lg">
@@ -94,7 +94,7 @@
             </li>
           </ul>
         </div>
-        <div class="h-4"></div>
+        <div class="h-6"></div>
         <div class="bg-gray-800 p-6 rounded-lg shadow-lg h-fit">
           <h3 class="text-xl font-semibold pb-2">Technical skills</h3>
           <ul class="pl-2 space-y-2 text-gray-300">
@@ -211,5 +211,6 @@
         next.
       </p>
     </div>
+    <div class="h-14"></div>
   </div>
 </template>
