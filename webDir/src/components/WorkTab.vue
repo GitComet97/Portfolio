@@ -1,7 +1,7 @@
 <template>
   <div class="mx-auto p-4 h-full">
     <!-- Title -->
-    <h2 class="text-3xl text-start text-white mb-8 pb-8">My Work</h2>
+    <h2 class="text-4xl text-start text-white mb-8 pb-8">My work</h2>
     <!-- Main Layout -->
     <div class="flex h-7/8 gap-8 w-full">
       <!-- Left Column: Game & Odd Projects -->
