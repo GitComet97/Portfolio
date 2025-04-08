@@ -21,7 +21,7 @@
             <ProjectCard
               title="UNICEF Multiplayer Board Game"
               description="A multiplayer board game used for training and other UNICEF events. It featured various play modes and was available on PC, Mac, and in-browser. The game was a team-based, turn-based trivia game which had a normal mode, a faciliator mode (which allowed a facilitator more control over the experience and questions) and a group mode. It was, and is still, used in various events and workshops at UNICEF."
-              imageSrc="https://via.placeholder.com/400x200"
+              imageSrc="https://morne-portfolio-media.s3.eu-north-1.amazonaws.com/Iziko/Iziko_1.JPG"
             />
 
             <ProjectCard
