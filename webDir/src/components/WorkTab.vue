@@ -20,19 +20,19 @@
             <!-- Project Cards -->
             <ProjectCard
               title="UNICEF Multiplayer Board Game"
-              description="A multiplayer board game used for training and other UNICEF events. It featured various play modes and was available on PC, Mac, and in-browser."
+              description="A multiplayer board game used for training and other UNICEF events. It featured various play modes and was available on PC, Mac, and in-browser. The game was a team-based, turn-based trivia game which had a normal mode, a faciliator mode (which allowed a facilitator more control over the experience and questions) and a group mode. It was, and is still, used in various events and workshops at UNICEF."
               imageSrc="https://via.placeholder.com/400x200"
             />
 
             <ProjectCard
               title="Pahola for PAHO"
-              description="A digital assistant that provides information and guidance on the risks and abuse of tobacco and alcohol. I implemented its conversational capabilities using Dialogflow and developed a custom analytics system using webhooks. This solution was designed to bypass a limitation that prevented us from attaching analytics to the embedded agent on the website."
+              description="A digital assistant that provides information and guidance on the risks and abuse of tobacco and alcohol. I implemented its conversational capabilities using Dialogflow and developed a custom analytics system using webhooks. This solution was designed to bypass a limitation that prevented us from attaching analytics to the embedded agent on the website. I saved weeks of project time by automating the export/import of the conversation for easier localisation to three additional languages."
               imageSrc="https://via.placeholder.com/400x200"
             />
 
             <ProjectCard
               title="Iziko AR Museum Exhibit"
-              description="My first client project, developed as a student. I led a team of fellow students to create an augmented reality museum exhibit. I developed the AR systems, created some of the 3D assets, and handled the full integration of 3D assets, animations, and systems."
+              description="My first client project, developed as a student. I led a team of fellow students to create an augmented reality museum exhibit following ancient egyptian burial rites and showcasing their after-death beliefs. I developed the AR systems, created some of the 3D assets, and handled the full integration of 3D assets, animations, and systems. I also built the physical model that has AR elements layered over it using a tablet attached to rails on the model. This exhibit is still open to the public in Cape Town at the Iziko Slave Lodge Museum."
               imageSrc="https://via.placeholder.com/400x200"
             />
 
