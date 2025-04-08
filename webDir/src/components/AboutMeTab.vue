@@ -79,11 +79,8 @@
       <div class="w-1/4">
         <div class="bg-gray-800 p-6 rounded-lg shadow-lg h-fit">
           <h3 class="text-xl font-semibold pb-2">Certifications</h3>
+
           <ul class="pl-2 space-y-2 text-gray-300">
-            <li>
-              <p class="font-medium">Game & Interactive Media Dev Certificate</p>
-              <p class="text-sm text-gray-400 pl-4">Academy of Digital Arts, 2018</p>
-            </li>
             <li>
               <p class="font-medium">AWS Certified Solutions Architect - Associate</p>
               <p class="text-sm text-gray-400 pl-4">Issued: March 2025</p>
@@ -91,6 +88,10 @@
             <li>
               <p class="font-medium">AWS Certified Cloud Practitioner</p>
               <p class="text-sm text-gray-400 pl-4">Issued: March 2025</p>
+            </li>
+            <li>
+              <p class="font-medium">Game & Interactive Media Dev Certificate</p>
+              <p class="text-sm text-gray-400 pl-4">Academy of Digital Arts, 2018</p>
             </li>
           </ul>
         </div>
