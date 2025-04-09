@@ -35,7 +35,7 @@
               Web development (front-end/backend), API development, Database management and
               development.
             </p>
-            <p class="text-sm text-gray-400 pl-8 pt-1">Vue;Firebase;Typescript</p>
+            <p class="text-sm text-gray-400 pl-8 pt-1">Vue; Firebase; Typescript</p>
           </li>
           <li>
             <p class="font-medium">Rooftop</p>
@@ -43,7 +43,7 @@
             <p class="text-sm text-gray-400 pl-8 pt-1">
               Solutions architect and game developer/designer
             </p>
-            <p class="text-sm text-gray-400 pl-8 pt-1">Unity;C#;DialogFlow;VR</p>
+            <p class="text-sm text-gray-400 pl-8 pt-1">Unity; C#; DialogFlow; VR</p>
           </li>
           <li>
             <p class="font-medium">Loud Rabbits</p>
@@ -51,13 +51,13 @@
             <p class="text-sm text-gray-400 pl-8 pt-1">
               Solutions architect and game developer/designer
             </p>
-            <p class="text-sm text-gray-400 pl-8 pt-1">Unity;C#;AR/VR</p>
+            <p class="text-sm text-gray-400 pl-8 pt-1">Unity; C#; AR/VR</p>
           </li>
           <li>
             <p class="font-medium">Free-lance game development</p>
             <p class="text-sm text-gray-400 pl-4">2019-2023</p>
             <p class="text-sm text-gray-400 pl-8 pt-1">Game developer/designer</p>
-            <p class="text-sm text-gray-400 pl-8 pt-1">Unity;C#;AR</p>
+            <p class="text-sm text-gray-400 pl-8 pt-1">Unity; C#; AR</p>
           </li>
           <li>
             <p class="font-medium">Academy of Digital Arts</p>

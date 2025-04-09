@@ -21,43 +21,52 @@
             <ProjectCard
               title="UNICEF Multiplayer Board Game"
               description="A multiplayer board game used for training and other UNICEF events. It featured various play modes and was available on PC, Mac, and in-browser. The game was a team-based, turn-based trivia game which had a normal mode, a faciliator mode (which allowed a facilitator more control over the experience and questions) and a group mode. It was, and is still, used in various events and workshops at UNICEF."
-              imageSrc="https://morne-portfolio-media.s3.eu-north-1.amazonaws.com/Iziko/Iziko_1.JPG"
+              videoSrc="https://morne-portfolio-media.s3.eu-north-1.amazonaws.com/UNICEF_vid.mp4"
             />
 
             <ProjectCard
               title="Pahola for PAHO"
               description="A digital assistant that provides information and guidance on the risks and abuse of tobacco and alcohol. I implemented its conversational capabilities using Dialogflow and developed a custom analytics system using webhooks. This solution was designed to bypass a limitation that prevented us from attaching analytics to the embedded agent on the website. I saved weeks of project time by automating the export/import of the conversation for easier localisation to three additional languages."
-              imageSrc="https://via.placeholder.com/400x200"
+              videoSrc="https://morne-portfolio-media.s3.eu-north-1.amazonaws.com/Pahola_vid.mp4"
             />
 
             <ProjectCard
               title="Iziko AR Museum Exhibit"
               description="My first client project, developed as a student. I led a team of fellow students to create an augmented reality museum exhibit following ancient egyptian burial rites and showcasing their after-death beliefs. I developed the AR systems, created some of the 3D assets, and handled the full integration of 3D assets, animations, and systems. I also built the physical model that has AR elements layered over it using a tablet attached to rails on the model. This exhibit is still open to the public in Cape Town at the Iziko Slave Lodge Museum."
-              imageSrc="https://via.placeholder.com/400x200"
+              :imageSrc="[
+                'https://morne-portfolio-media.s3.eu-north-1.amazonaws.com/Iziko/Iziko_1.JPG',
+                'https://morne-portfolio-media.s3.eu-north-1.amazonaws.com/Iziko/Iziko_2.JPG',
+                'https://morne-portfolio-media.s3.eu-north-1.amazonaws.com/Iziko/Iziko_3.JPG',
+              ]"
             />
 
             <ProjectCard
               title="Petal"
               description="A game developed in collaboration with an artist. We challenged ourselves to build it in one week, using only our spare time after work. The project was a personal experiment with Unity’s then-new rendering pipeline and 2D particle system. No external art assets or packages were used—everything was created using only the base Unity engine."
-              imageSrc="https://via.placeholder.com/400x200"
+              videoSrc="https://morne-portfolio-media.s3.eu-north-1.amazonaws.com/Petal_vid.mp4"
             />
 
             <ProjectCard
               title="Mogau's Kingdom"
               description="A mobile educational game designed to encourage young children to read. It began as a hackathon demo in collaboration with a South African NPO, which later secured funding for me to fully develop and publish the project on Android and iOS. I handled the entire pipeline—from inception to publication. I also had the privilege of testing the game with children in community centers, accompanied by book donations to their libraries from the NPO."
-              imageSrc="https://via.placeholder.com/400x200"
+              videoSrc="https://morne-portfolio-media.s3.eu-north-1.amazonaws.com/Mogau_vid.mp4"
             />
 
             <ProjectCard
               title="Reset Earth Simulation for WHO"
               description="A web-based educational game developed for a WHO program aimed at raising climate change awareness among children and teens. I worked alongside educators creating accompanying learning modules, and together the materials were used in school workshops."
-              imageSrc="https://via.placeholder.com/400x200"
+              :imageSrc="[
+                'https://morne-portfolio-media.s3.eu-north-1.amazonaws.com/ResetEarth/ResetEarth_1.png',
+                'https://morne-portfolio-media.s3.eu-north-1.amazonaws.com/ResetEarth/ResetEarth_2.png',
+                'https://morne-portfolio-media.s3.eu-north-1.amazonaws.com/ResetEarth/ResetEarth_3.png',
+                'https://morne-portfolio-media.s3.eu-north-1.amazonaws.com/ResetEarth/ResetEarth_4.png',
+              ]"
             />
 
             <ProjectCard
               title="Timothee"
               description="A short 2D horror game developed with an artist during a game jam. We were the only two-person team and built the game in 48 hours using no third-party assets—just the base Unity engine."
-              imageSrc="https://via.placeholder.com/400x200"
+              videoSrc="https://morne-portfolio-media.s3.eu-north-1.amazonaws.com/Timothee_vid.mp4"
             />
           </div>
         </div>
