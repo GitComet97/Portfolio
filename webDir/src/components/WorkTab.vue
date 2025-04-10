@@ -9,7 +9,7 @@
         <h3 class="text-xl text-white mb-4 pb-4">Game & Odd Projects</h3>
         <div class="flex flex-col h-full">
           <div
-            class="h-full grid gap-2 md:overflow-y-auto pr-2"
+            class="h-full grid gap-2 md:overflow-y-auto pr-1 md:pr-2"
             style="
               grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
               grid-auto-rows: auto;
@@ -158,7 +158,7 @@
             <p class="text-gray-500">Vue; Typescript; Tailwind</p>
           </div>
         </div>
-        <div class="h-8 md:h-0"></div>
+        <div class="h-14 md:h-0"></div>
       </div>
     </div>
   </div>
