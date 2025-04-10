@@ -9,7 +9,7 @@ const currentTab = ref('AboutMe')
 
 <template>
   <div class="h-screen w-screen bg-black text-white flex flex-col pl-4">
-    <nav class="flex gap-4 p-4">
+    <nav class="flex gap-2 p-3">
       <button
         @click="currentTab = 'AboutMe'"
         :class="{ 'font-bold underline': currentTab === 'AboutMe' }"
