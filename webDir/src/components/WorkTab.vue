@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mx-auto pl-1 md:p-2 h-screen w-screen overflow-x-none overflow-y-scroll md:overflow-y-none"
+    class="mx-auto pl-1 md:p-2 h-screen w-screen overflow-x-hidden overflow-y-scroll md:overflow-y-none"
   >
     <!-- Title -->
     <h2 class="text-3xl text-start text-white mb-8 pb-4 md:pb-8">My work</h2>
