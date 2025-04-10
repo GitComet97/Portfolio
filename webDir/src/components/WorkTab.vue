@@ -1,5 +1,7 @@
 <template>
-  <div class="mx-auto pl-1 md:p-2 h-screen w-screen overflow-y-scroll md:overflow-y-none">
+  <div
+    class="mx-auto pl-1 md:p-2 h-screen w-screen overflow-x-hidden overflow-y-scroll md:overflow-y-none"
+  >
     <!-- Title -->
     <h2 class="text-3xl text-start text-white mb-8 pb-4 md:pb-8">My work</h2>
     <!-- Main Layout -->
@@ -9,7 +11,7 @@
         <h3 class="text-xl text-white mb-4 pb-4">Game & Odd Projects</h3>
         <div class="flex flex-col h-full">
           <div
-            class="h-full grid gap-2 md:overflow-y-auto pr-2"
+            class="h-full grid gap-2 md:overflow-y-auto pr-1 md:pr-2"
             style="
               grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
               grid-auto-rows: auto;
@@ -158,7 +160,7 @@
             <p class="text-gray-500">Vue; Typescript; Tailwind</p>
           </div>
         </div>
-        <div class="h-8 md:h-0"></div>
+        <div class="h-14 md:h-0"></div>
       </div>
     </div>
   </div>

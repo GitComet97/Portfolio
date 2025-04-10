@@ -9,11 +9,11 @@
         alt="Your Name"
         class="bg-white w-48 h-64 rounded-full border-4 border-gray-700"
       />
-      <div class="md:text-center">
+      <div class="md:text-start md:w-1/3">
         <p class="text-lg">
           👋 Hi, I'm Morne Gouws! I'm 27 years old and from Namibia, currently living in Germany
         </p>
-        <p class="text-gray-300 md:max-w-1/3">
+        <p class="text-gray-300">
           Video games sparked my passion for technology at an early age, leading me to explore a
           wide range of roles across both professional and personal projects. From game development
           to IT solutions, I’ve enjoyed learning through hands-on experience and continuous
@@ -120,7 +120,7 @@
           </ul>
         </div>
       </div>
-      <div class="md:h-6 h-2"></div>
+      <div class="md:hidden h-2"></div>
       <!-- Skills Card -->
       <div class="bg-gray-800 p-6 rounded-lg shadow-lg h-fit md:w-1/4">
         <h3 class="text-xl font-semibold pb-2">Skills</h3>
@@ -137,7 +137,7 @@
           <li>Self-reliant & self-driven</li>
         </ul>
       </div>
-      <div class="md:h-6 h-2"></div>
+      <div class="md:hidden h-2"></div>
       <!-- Personal Interests Card -->
       <div class="bg-gray-800 p-6 rounded-lg shadow-lg h-fit md:w-1/4">
         <h3 class="text-xl font-semibold pb-2">Personal Interests</h3>
