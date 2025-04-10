@@ -9,11 +9,11 @@
         alt="Your Name"
         class="bg-white w-48 h-64 rounded-full border-4 border-gray-700"
       />
-      <div class="md:text-center">
+      <div class="md:text-start md:w-1/3">
         <p class="text-lg">
           👋 Hi, I'm Morne Gouws! I'm 27 years old and from Namibia, currently living in Germany
         </p>
-        <p class="text-gray-300 md:max-w-1/3">
+        <p class="text-gray-300">
           Video games sparked my passion for technology at an early age, leading me to explore a
           wide range of roles across both professional and personal projects. From game development
           to IT solutions, I’ve enjoyed learning through hands-on experience and continuous
