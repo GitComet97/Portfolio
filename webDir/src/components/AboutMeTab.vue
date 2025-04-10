@@ -25,7 +25,7 @@
     <!-- Four-Box Grid -->
     <div class="md:flex md:flex-row gap-6 md:pb-6 pb-2">
       <!-- Work History Card -->
-      <div class="bg-gray-800 md:p-6 p-2 rounded-lg shadow-lg h-fit md:w-1/4">
+      <div class="bg-red-500 md:p-6 p-2 rounded-lg shadow-lg h-fit md:w-1/4">
         <h3 class="text-xl font-semibold pb-2">Work History</h3>
         <ul class="pl-2 space-y-2 text-gray-300">
           <li>

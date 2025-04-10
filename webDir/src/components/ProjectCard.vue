@@ -5,7 +5,7 @@
     >
       <!-- Front Side -->
       <div
-        class="absolute inset-0 bg-[#1f2937] rounded-lg p-4 flex flex-col justify-start backface-hidden"
+        class="absolute inset-0 bg-[#2a2a2a] rounded-lg p-4 flex flex-col justify-start backface-hidden"
       >
         <p class="text-white text-lg mb-2 pb-2 pointer-events-none">{{ title }}</p>
         <p class="text-gray-400 text-sm pointer-events-none">{{ description }}</p>
