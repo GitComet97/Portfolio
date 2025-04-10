@@ -120,7 +120,7 @@
           </ul>
         </div>
       </div>
-      <div class="md:h-6 h-2"></div>
+      <div class="md:hidden h-2"></div>
       <!-- Skills Card -->
       <div class="bg-gray-800 p-6 rounded-lg shadow-lg h-fit md:w-1/4">
         <h3 class="text-xl font-semibold pb-2">Skills</h3>
@@ -137,7 +137,7 @@
           <li>Self-reliant & self-driven</li>
         </ul>
       </div>
-      <div class="md:h-6 h-2"></div>
+      <div class="md:hidden h-2"></div>
       <!-- Personal Interests Card -->
       <div class="bg-gray-800 p-6 rounded-lg shadow-lg h-fit md:w-1/4">
         <h3 class="text-xl font-semibold pb-2">Personal Interests</h3>
