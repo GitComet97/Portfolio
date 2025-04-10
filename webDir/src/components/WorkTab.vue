@@ -1,11 +1,11 @@
 <template>
-  <div class="mx-auto p-4 h-full">
+  <div class="mx-auto p-4 h-screen">
     <!-- Title -->
     <h2 class="text-4xl text-start text-white mb-8 pb-8">My work</h2>
     <!-- Main Layout -->
     <div class="flex h-7/8 gap-8 w-full">
       <!-- Left Column: Game & Odd Projects -->
-      <div class="w-1/2 h-full">
+      <div class="w-1/2 h-9/10">
         <h3 class="text-xl text-white mb-4 pb-4">Game & Odd Projects</h3>
         <div class="flex flex-col h-full">
           <div
@@ -72,15 +72,15 @@
         </div>
       </div>
       <!-- Right Column: Conventional Software Work -->
-      <div class="w-1/2 h-full pr-4">
+      <div class="w-1/2 h-9/10 pr-4">
         <h3 class="text-xl text-white mb-4">Conventional Software Work</h3>
-        <p class="text-gray-400 mb-2 pb-4">
+        <p class="text-gray-400 mb-1 pb-1">
           The first entry is this portfolio website. All other projects listed below were completed
           in a professional capacity for a commercial product.
         </p>
-        <div class="flex flex-col h-full gap-2 overflow-y-auto pr-2">
+        <div class="flex flex-col h-full gap-1 overflow-y-auto pr-2">
           <!-- Project 1 -->
-          <div class="bg-gray-800 p-4 m-6 rounded-lg h-36">
+          <div class="bg-gray-800 p-3 m-4 rounded-lg h-36">
             <h4 class="text-white text-lg">This Website!</h4>
             <p class="text-gray-400">
               This website uses a CI/CD pipeline powered by AWS Amplify. It is hosted on Route 53
@@ -91,7 +91,7 @@
           </div>
 
           <!-- Project 2 -->
-          <div class="bg-gray-800 p-4 m-6 rounded-lg h-36">
+          <div class="bg-gray-800 p-3 m-6 rounded-lg h-36">
             <h4 class="text-white text-lg">Website Scaffolding</h4>
             <p class="text-gray-400">
               Bootstrapped the web application for the product. Set up routes, pages, and structured
@@ -102,7 +102,7 @@
           </div>
 
           <!-- Project 3 -->
-          <div class="bg-gray-800 p-4 m-6 rounded-lg h-36">
+          <div class="bg-gray-800 p-3 m-6 rounded-lg h-36">
             <h4 class="text-white text-lg">RESTful API for Materials and Metadata</h4>
             <p class="text-gray-400">
               Developed an API used in the web product to serve materials as GLTF files along with
@@ -115,7 +115,7 @@
           </div>
 
           <!-- Project 4 -->
-          <div class="bg-gray-800 p-4 m-6 rounded-lg h-36">
+          <div class="bg-gray-800 p-3 m-6 rounded-lg h-36">
             <h4 class="text-white text-lg">Database Migration and Conversion System</h4>
             <p class="text-gray-400">
               Built an internal tool that migrated materials from partner open-source databases and
@@ -126,7 +126,7 @@
           </div>
 
           <!-- Project 5 -->
-          <div class="bg-gray-800 p-4 m-6 rounded-lg h-36">
+          <div class="bg-gray-800 p-3 m-6 rounded-lg h-36">
             <h4 class="text-white text-lg">Database Maintenance</h4>
             <p class="text-gray-400">
               Created a repository of command-line tools for applying database-wide patches, checks,
@@ -137,7 +137,7 @@
           </div>
 
           <!-- Project 6 -->
-          <div class="bg-gray-800 p-4 m-6 rounded-lg h-36">
+          <div class="bg-gray-800 p-3 m-6 rounded-lg h-36">
             <h4 class="text-white text-lg">User Management System</h4>
             <p class="text-gray-400">
               Integrated an existing user database with the new web app using Firebase
@@ -148,7 +148,7 @@
           </div>
 
           <!-- Project 7 -->
-          <div class="bg-gray-800 p-4 m-6 rounded-lg h-36">
+          <div class="bg-gray-800 p-3 m-6 rounded-lg h-36">
             <h4 class="text-white text-lg">Frontend Architecture and Component Development</h4>
             <p class="text-gray-400">
               Built various pages and reusable components for the web app. Developed dynamic
