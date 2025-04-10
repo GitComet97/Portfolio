@@ -1,5 +1,7 @@
 <template>
-  <div class="w-screen h-screen mx-auto p-1 md:p-2 pr-4 md:pr-6 text-white overflow-y-auto">
+  <div
+    class="w-screen h-screen mx-auto p-1 md:p-2 pr-4 md:pr-6 text-white overflow-y-auto md:overflow-y-hidden"
+  >
     <!-- Heading -->
     <h2 class="text-3xl font-bold text-start mb-4 pb-4">About Me</h2>
     <!-- Image & Personal Info -->
