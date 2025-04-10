@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-80 perspective overflow-hidden group">
+  <div class="w-full h-80 perspective overflow-hidden group pr-4 md:pr-0">
     <div
       class="relative w-full h-full duration-500 transform-style-preserve-3d group-hover:rotate-y-180 will-change-transform"
     >

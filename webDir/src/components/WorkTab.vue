@@ -1,15 +1,15 @@
 <template>
-  <div class="mx-auto p-2 h-screen">
+  <div class="mx-auto pl-1 md:p-2 h-screen w-screen overflow-y-scroll md:overflow-y-none">
     <!-- Title -->
-    <h2 class="text-3xl text-start text-white mb-8 pb-8">My work</h2>
+    <h2 class="text-3xl text-start text-white mb-8 pb-4 md:pb-8">My work</h2>
     <!-- Main Layout -->
-    <div class="flex h-7/8 gap-8 w-full">
+    <div class="flex flex-col md:flex-row md:h-7/8 md:gap-8 w-full">
       <!-- Left Column: Game & Odd Projects -->
-      <div class="w-1/2 h-9/10">
+      <div class="md:w-1/2 md:h-9/10">
         <h3 class="text-xl text-white mb-4 pb-4">Game & Odd Projects</h3>
         <div class="flex flex-col h-full">
           <div
-            class="h-full grid gap-2 overflow-y-auto pr-2"
+            class="h-full grid gap-2 md:overflow-y-auto pr-2"
             style="
               grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
               grid-auto-rows: auto;
@@ -72,16 +72,16 @@
         </div>
       </div>
       <!-- Right Column: Conventional Software Work -->
-      <div class="w-1/2 h-9/10 pr-4">
-        <h3 class="text-xl text-white mb-4">Conventional Software Work</h3>
-        <p class="text-gray-400 mb-1 pb-1">
+      <div class="md:w-1/2 md:h-9/10 pr-1 md:pr-4">
+        <h3 class="text-xl text-white pt-4 md:pt-0 mb-4">Conventional Software Work</h3>
+        <p class="text-gray-400 mb-1 md:pb-1 pb-4">
           The first entry is this portfolio website. All other projects listed below were completed
           in a professional capacity for a commercial product.
         </p>
-        <div class="flex flex-col h-full gap-1 overflow-y-auto pr-2">
+        <div class="flex flex-col h-full gap-1 md:overflow-y-auto pr-2">
           <!-- Project 1 -->
-          <div class="bg-gray-800 p-3 m-4 rounded-lg h-36">
-            <h4 class="text-white text-lg">This Website!</h4>
+          <div class="bg-gray-800 p-3 m-4 rounded-lg md:h-36">
+            <h4 class="text-white md:text-lg">This Website!</h4>
             <p class="text-gray-400">
               This website uses a CI/CD pipeline powered by AWS Amplify. It is hosted on Route 53
               and built with Vue. Deployment is fully automated, triggering on updates to the main
@@ -91,8 +91,8 @@
           </div>
 
           <!-- Project 2 -->
-          <div class="bg-gray-800 p-3 m-6 rounded-lg h-36">
-            <h4 class="text-white text-lg">Website Scaffolding</h4>
+          <div class="bg-gray-800 p-3 m-6 rounded-lg md:h-36">
+            <h4 class="text-white md:text-lg">Website Scaffolding</h4>
             <p class="text-gray-400">
               Bootstrapped the web application for the product. Set up routes, pages, and structured
               the app for future development. Also integrated a localization system for multilingual
@@ -102,8 +102,8 @@
           </div>
 
           <!-- Project 3 -->
-          <div class="bg-gray-800 p-3 m-6 rounded-lg h-36">
-            <h4 class="text-white text-lg">RESTful API for Materials and Metadata</h4>
+          <div class="bg-gray-800 p-3 m-6 rounded-lg md:h-36">
+            <h4 class="text-white md:text-lg">RESTful API for Materials and Metadata</h4>
             <p class="text-gray-400">
               Developed an API used in the web product to serve materials as GLTF files along with
               their metadata. The API supported search parameters, filters, and uploading of new
@@ -115,8 +115,8 @@
           </div>
 
           <!-- Project 4 -->
-          <div class="bg-gray-800 p-3 m-6 rounded-lg h-36">
-            <h4 class="text-white text-lg">Database Migration and Conversion System</h4>
+          <div class="bg-gray-800 p-3 m-6 rounded-lg md:h-36">
+            <h4 class="text-white md:text-lg">Database Migration and Conversion System</h4>
             <p class="text-gray-400">
               Built an internal tool that migrated materials from partner open-source databases and
               converted them to match the product’s expected format. It also generated metadata,
@@ -126,8 +126,8 @@
           </div>
 
           <!-- Project 5 -->
-          <div class="bg-gray-800 p-3 m-6 rounded-lg h-36">
-            <h4 class="text-white text-lg">Database Maintenance</h4>
+          <div class="bg-gray-800 p-3 m-6 rounded-lg md:h-36">
+            <h4 class="text-white md:text-lg">Database Maintenance</h4>
             <p class="text-gray-400">
               Created a repository of command-line tools for applying database-wide patches, checks,
               and maintenance tasks. Also developed a web-based internal tool for easier database
@@ -137,8 +137,8 @@
           </div>
 
           <!-- Project 6 -->
-          <div class="bg-gray-800 p-3 m-6 rounded-lg h-36">
-            <h4 class="text-white text-lg">User Management System</h4>
+          <div class="bg-gray-800 p-3 m-6 rounded-lg md:h-36">
+            <h4 class="text-white md:text-lg">User Management System</h4>
             <p class="text-gray-400">
               Integrated an existing user database with the new web app using Firebase
               Authentication. Implemented user account management flows, configured security rules,
@@ -148,8 +148,8 @@
           </div>
 
           <!-- Project 7 -->
-          <div class="bg-gray-800 p-3 m-6 rounded-lg h-36">
-            <h4 class="text-white text-lg">Frontend Architecture and Component Development</h4>
+          <div class="bg-gray-800 p-3 m-6 rounded-lg md:h-36">
+            <h4 class="text-white md:text-lg">Frontend Architecture and Component Development</h4>
             <p class="text-gray-400">
               Built various pages and reusable components for the web app. Developed dynamic
               components supporting features like resizing, floating, and flexible reuse across
@@ -158,6 +158,7 @@
             <p class="text-gray-500">Vue; Typescript; Tailwind</p>
           </div>
         </div>
+        <div class="h-8 md:h-0"></div>
       </div>
     </div>
   </div>

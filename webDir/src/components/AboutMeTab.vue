@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen h-screen mx-auto p-2 pr-6 text-white overflow-y-auto">
+  <div class="w-screen h-screen mx-auto p-1 md:p-2 pr-4 md:pr-6 text-white overflow-y-auto">
     <!-- Heading -->
     <h2 class="text-3xl font-bold text-start mb-4 pb-4">About Me</h2>
     <!-- Image & Personal Info -->
@@ -9,11 +9,11 @@
         alt="Your Name"
         class="bg-white w-48 h-64 rounded-full border-4 border-gray-700"
       />
-      <div class="text-center md:text-left">
+      <div class="md:text-center">
         <p class="text-lg">
           👋 Hi, I'm Morne Gouws! I'm 27 years old and from Namibia, currently living in Germany
         </p>
-        <p class="text-gray-300 max-w-1/3">
+        <p class="text-gray-300 md:max-w-1/3">
           Video games sparked my passion for technology at an early age, leading me to explore a
           wide range of roles across both professional and personal projects. From game development
           to IT solutions, I’ve enjoyed learning through hands-on experience and continuous
@@ -23,9 +23,9 @@
       </div>
     </div>
     <!-- Four-Box Grid -->
-    <div class="flex flex-row gap-6 pb-6">
+    <div class="md:flex md:flex-row gap-6 md:pb-6 pb-2">
       <!-- Work History Card -->
-      <div class="bg-gray-800 p-6 rounded-lg shadow-lg h-fit w-1/4">
+      <div class="bg-gray-800 md:p-6 p-2 rounded-lg shadow-lg h-fit md:w-1/4">
         <h3 class="text-xl font-semibold pb-2">Work History</h3>
         <ul class="pl-2 space-y-2 text-gray-300">
           <li>
@@ -76,7 +76,7 @@
         </ul>
       </div>
       <!-- Education Card -->
-      <div class="w-1/4">
+      <div class="md:w-1/4 md:pt-0 pt-2">
         <div class="bg-gray-800 p-6 rounded-lg shadow-lg h-fit">
           <h3 class="text-xl font-semibold pb-2">Certifications</h3>
 
@@ -95,7 +95,7 @@
             </li>
           </ul>
         </div>
-        <div class="h-6"></div>
+        <div class="md:h-6 h-2"></div>
         <div class="bg-gray-800 p-6 rounded-lg shadow-lg h-fit">
           <h3 class="text-xl font-semibold pb-2">Technical skills</h3>
           <ul class="pl-2 space-y-2 text-gray-300">
@@ -120,9 +120,9 @@
           </ul>
         </div>
       </div>
-
+      <div class="md:h-6 h-2"></div>
       <!-- Skills Card -->
-      <div class="bg-gray-800 p-6 rounded-lg shadow-lg h-fit w-1/4">
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg h-fit md:w-1/4">
         <h3 class="text-xl font-semibold pb-2">Skills</h3>
         <ul class="list-disc pl-4 text-gray-300">
           <li>English (mother tongue)</li>
@@ -137,8 +137,9 @@
           <li>Self-reliant & self-driven</li>
         </ul>
       </div>
+      <div class="md:h-6 h-2"></div>
       <!-- Personal Interests Card -->
-      <div class="bg-gray-800 p-6 rounded-lg shadow-lg h-fit w-1/4">
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg h-fit md:w-1/4">
         <h3 class="text-xl font-semibold pb-2">Personal Interests</h3>
         <ul class="list-disc pl-4 text-gray-300">
           <li>

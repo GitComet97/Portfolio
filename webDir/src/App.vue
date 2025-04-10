@@ -8,7 +8,7 @@ const currentTab = ref('AboutMe')
 </script>
 
 <template>
-  <div class="h-screen w-screen bg-black text-white flex flex-col pl-4">
+  <div class="h-screen w-screen bg-black text-white flex flex-col pl-2 md:pl-4">
     <nav class="flex gap-2 p-3">
       <button
         @click="currentTab = 'AboutMe'"
