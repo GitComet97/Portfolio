@@ -182,17 +182,17 @@
     <div class="mt-10 bg-gray-800 p-6 rounded-lg shadow-lg w-full">
       <h3 class="text-2xl font-semibold mb-2">More About Me</h3>
       <p class="text-gray-300 leading-relaxed">
-        I was born and raised in Swakopmund, Namibia. I have been an avid gamer from a young age and
-        was always keen to learn more about the IT world. I wrote and passed exams for CompTIA A+ as
-        well as N+ in high school, but the institute was unfortunately unaccredited. Nevertheless, I
-        leveraged the skills I had learned into an IT job straight out of high school. I
+        I was born and raised in Swakopmund, Namibia. I've been an avid gamer from a young age and
+        was always eager to learn more about the IT world. I wrote and passed the CompTIA A+ and N+
+        exams in high school, but unfortunately, the institute was unaccredited. Nevertheless, I
+        leveraged the skills I had learned to land an IT job straight out of high school. I
         administered businesses, set up local network infrastructures, and performed general IT work
         until I could afford to study further. I later studied game and multimedia development in
-        Cape Town. With this skill set, I spent six years as a developer in many areas. I developed
-        interactive VR videos that were used at a WHO convention in Montreal, educational
-        multiplayer games used in UNICEF training, an interactive digital health assistant who
-        advises on alcohol and tobacco abuse for PAHO, and a range of recreational games for clients
-        — including Augmented Reality projects.
+        Cape Town. With this skill set, I spent six years as a developer across various domains. I
+        developed interactive VR videos that were showcased at a WHO convention in Montreal,
+        educational multiplayer games used in UNICEF training, an interactive digital health
+        assistant that advises on alcohol and tobacco abuse for PAHO, and a range of recreational
+        games for clients — including Augmented Reality projects.
       </p>
       <p class="text-gray-300 leading-relaxed">
         I then decided to immigrate to Europe and began working with Pelicad, a start-up developing
@@ -202,8 +202,9 @@
         file conversions and tag management.
       </p>
       <p class="text-gray-300 leading-relaxed">
-        Due to a personal loss at the end of 2024, I needed time away. After a brief sabbatical in
-        January, I acquired two AWS certifications.
+        At the end of 2024, I decided to add additional tools to my skill set and obtained two AWS
+        certifications. I'm very interested in using cloud-based tools and services to develop
+        business solutions.
       </p>
       <p class="text-gray-300 leading-relaxed">
         I'm now looking to apply my experience across development, infrastructure, and cloud
