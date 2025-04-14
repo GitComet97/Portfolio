@@ -30,7 +30,7 @@
         <ul class="pl-2 space-y-2 text-gray-300">
           <li>
             <p class="font-medium">Pelicad (formerly Cityscaper)</p>
-            <p class="text-sm text-gray-400 pl-4">2023-2025</p>
+            <p class="text-sm text-gray-400 pl-4">2023-2024</p>
             <p class="text-sm text-gray-400 pl-8 pt-1">
               Web development (front-end/backend), API development, Database management and
               development.
