@@ -161,16 +161,16 @@ const messages = {
     intro_greeting:
       '👋 Hallo, ich bin Morne Gouws! Ich bin 27 Jahre alt, komme aus Namibia und lebe derzeit in Deutschland.',
     intro_description:
-      'Videospiele weckten schon früh meine Leidenschaft für Technologie, was mich dazu brachte, verschiedene Rollen in professionellen und persönlichen Projekten zu erkunden. Von der Spieleentwicklung bis zu IT-Lösungen habe ich es genossen, durch praktische Erfahrung und ständige Neugier zu lernen. Ich suche immer nach neuen Herausforderungen und Möglichkeiten, mein wachsendes Können im sich ständig weiterentwickelnden Technologiebereich einzusetzen.',
+      'Videospiele weckten schon früh meine Leidenschaft für Technologie, was mich dazu brachte, verschiedene Rollen in professionellen und persönlichen Projekten zu erkunden. Von der Spieleentwicklung bis zu IT-Lösungen habe ich Spaß daran, durch praktische Erfahrung und ständige Neugier zu lernen. Ich suche immer nach neuen Herausforderungen und Möglichkeiten, mein wachsendes Können im sich ständig weiterentwickelnden Technologiebereich einzusetzen.',
 
     work_history_title: 'Berufserfahrung',
     work_pelicad: 'Pelicad (ehemals Cityscaper)',
     work_pelicad_desc1:
       'Webentwicklung (Frontend/Backend), API-Entwicklung, Datenbankverwaltung und -entwicklung.',
 
-    work_rooftop_desc: 'Lösungsarchitekt und Spieleentwickler/-designer',
+    work_rooftop_desc: 'Solutions architect und Spieleentwickler/-designer',
 
-    work_loud_rabbits_desc: 'Lösungsarchitekt und Spieleentwickler/-designer',
+    work_loud_rabbits_desc: 'Solutions architect und Spieleentwickler/-designer',
 
     work_freelance: 'Freiberufliche Spieleentwicklung',
     work_freelance_desc: 'Spieleentwickler/-designer',
@@ -198,7 +198,7 @@ const messages = {
     skill_project_org: 'Projektorganisation & Planung',
     skill_resource_alloc: 'Ressourcenzuweisung & Priorisierung',
     skill_problem_solving: 'Strategische Problemlösung',
-    skill_adaptable: 'Anpassungsfähig unter Druck',
+    skill_adaptable: 'Anpassungsfähigkeit unter Druck',
     skill_communicator: 'Starker Kommunikator & Teamplayer',
     skill_self_reliant: 'Selbstständig & eigenmotiviert',
 
