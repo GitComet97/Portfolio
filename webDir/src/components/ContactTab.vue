@@ -2,28 +2,30 @@
   <div class="h-4"></div>
   <div class="pl-0 pr-4 sm:px-0">
     <div class="md:max-w-xl mx-auto p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
-      <h2 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4 pb-4">Get in Touch</h2>
+      <h2 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4 pb-4">
+        {{ $t('contactTitle') }}
+      </h2>
       <p class="text-gray-600 dark:text-gray-300 mb-6 pb-4">
-        I'd love to hear from you. Fill out the form below or reach out through any of the links.
+        {{ $t('contactIntro') }}
       </p>
 
       <form @submit.prevent="submitForm" class="space-y-4">
         <input
           v-model="name"
-          placeholder="Your Name"
+          :placeholder="$t('contactPlaceholderName')"
           class="w-full p-3 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
         <div class="h-4"></div>
         <input
           v-model="email"
           type="email"
-          placeholder="Your Email"
+          :placeholder="$t('contactPlaceholderEmail')"
           class="w-full p-3 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
         <div class="h-4"></div>
         <textarea
           v-model="message"
-          placeholder="Your Message"
+          :placeholder="$t('contactPlaceholderMessage')"
           rows="5"
           class="w-full p-3 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
         />
@@ -33,7 +35,7 @@
           :disabled="!name || !email || !message"
           class="w-full py-3 px-6 rounded-lg font-semibold text-white transition-colors bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed"
         >
-          Send Message
+          {{ $t('contactButtonSend') }}
         </button>
 
         <transition name="fade">
